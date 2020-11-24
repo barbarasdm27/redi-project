@@ -1,0 +1,98 @@
+*,
+*::after,
+*::before { 
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html {
+    font-size: 62,5%;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium';
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 1.7;
+    color: rgb(202, 22, 22);
+    padding: 10px;
+}
+
+.header{
+    height: max-content;
+    background-image: url(../imagenes/fondo.jpg);
+    background-size: cover;
+    background-position: top;
+    /*position: relative;*/
+}
+.header__logo-box{
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+
+}
+
+.header__logo {
+    height: 10px;
+}
+h1{
+    position: relative;
+    padding-block: 20px;
+    text-align: right; 
+    width: 1100px;
+    /*margin-right: 50px;*/
+    color: #fff;
+}
+p1 {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1px;
+    font-style: italic;
+    color: #fff;
+    text-align: right;
+    
+}
+
+
+a {
+    position: center;
+    border-style: ridge;
+    border-radius: 30px;
+    background-color: rgb(119, 108, 108);
+    font-style: oblique;
+    font-size: initial;
+    color: #fff;
+    padding: 10px;
+}
+h3{
+    font-weight: 200px;
+    color: grey;
+    text-align: justify;
+    padding: 30px;
+    padding-left: 70px;
+    padding-bottom: 10px;
+}
+.another {
+    height: max-content;
+    background-image: url(../imagenes/desk.jpg);
+    background-size: cover;
+    background-position: top;
+    padding: 15px;
+    /*position: relative;*/
+}
+
+h4 { 
+    font-weight: 80px;
+    color: grey;
+    text-align: justify;
+    padding-left: 30px;
+}
+p2{
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    color: grey;
+    text-align: match-parent;
+    padding: 10px;
+    padding-left: 10px;
+}
